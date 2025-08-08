@@ -1,41 +1,41 @@
 export const perguntas = [
     {
-        enunciado: "Você está saindo da escola, o que você decide para seu futuro?",
+        enunciado: "Você está projetando uma nova cidade. Qual é a sua prioridade?",
         alternativas: [
             {
-                texto: "Não sei que caminho seguir",
+                texto: "Priorizar o transporte público e ciclovias para reduzir a poluição.",
                 afirmacao: [
-                    "talvez você precise de um tempo para pensar.",
-                    "você pode falar com profisionais da sua posível área de atuação."
+                    "Você valoriza a saúde das pessoas e do planeta, promovendo um estilo de vida sustentável.",
+                     "Sua visão de futuro é focada em comunidades e na redução da emissão de carbono.",
                 ],
                 proxima: 1,
             },
             {
-                texto: "já decidi o que quero fazer",
+                texto: "Investir em carros autônomos e transporte individual de alta tecnologia.",
                 afirmacao: [
-                    "Você está bem direcionado e pode continuar se informando acima da sua decisão.",
-                    "Você pode ir planejando como chegar onde você quer."
+                   "Você acredita que a tecnologia é a chave para a eficiência e o progresso.",
+                   "Sua visão de futuro é focada na conveniência e na inovação individual.",
                 ],
                 proxima: 2,
             },
         ]
     },
     {
-        enunciado: "seu planejamento não deu certo, o que você faz?",
+        enunciado: "A cidade precisa de uma nova fonte de energia. Qual a sua escolha?",
         alternativas: [
             {
-                texto: "Desisto",
+                texto: "Construir fazendas de energia solar e eólica.",
                 afirmacao: [
-                    "Que pena, tente procurar por soluções",
-                    "foque em um plano B",
+                   "Sua decisão de investir em energia renovável garantiu que a cidade se tornasse autossuficiente e limpa.",
+"Você se tornou um defensor da sustentabilidade, mostrando que tecnologia e natureza podem coexistir.",
                 ],
                 proxima: 3,
             },
             {
-                texto: "Tento novamente ou penso em novas posibilidades",
+                texto: "Utilizar uma nova geração de usinas nucleares mais seguras e eficientes.",
                 afirmacao: [
-                    "Que bom, isso é muito importante",
-                    "Esse é o caminho do sucesso.",
+                    "Sua decisão de usar a energia nuclear forneceu uma fonte de energia poderosa e constante.",
+"Você apostou na tecnologia de ponta para resolver o problema energético da cidade, apesar dos riscos.",
                   
                 ],
                 proxima: 4,
@@ -43,130 +43,89 @@ export const perguntas = [
         ]
     },
     {
-        enunciado: "Um chat com IA pode ser uma boa alternativa para realizar tarefas do dia a dia e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "A sociedade evoluiu, e agora novas tecnologias estão disponíveis. Você se concentra em qual área?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Aperfeiçoar a agricultura vertical para produzir alimentos frescos sem agredir o solo.",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis.",
-                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
-                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
+                    "Você revolucionou a produção de alimentos, garantindo segurança alimentar para todos e protegendo o meio ambiente.",
+"Sua dedicação à agricultura sustentável fez da sua cidade um modelo global de inovação.",
                 ],
                 proxima: 3,
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Desenvolver colônias em outros planetas para garantir a sobrevivência da humanidade.",
                 afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
-                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
-                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
+                    "Você liderou a exploração espacial, garantindo um futuro para a humanidade em outros mundos.",
+"Sua visão ousada de colonizar o espaço tornou-se a esperança de um novo começo.",
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Ferramentas de busca que utilizam IA podem facilitar muito nosso processo de busca por informações. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        enunciado: "Uma nova tecnologia de vigilância por drone é proposta para monitorar florestas e evitar incêndios, mas há preocupações sobre a privacidade dos cidadãos. O que você decide?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Implementar a tecnologia, focando nos benefícios ambientais e de segurança, com regras rígidas de uso de dados.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                   "Você encontrou um equilíbrio entre a proteção do meio ambiente e a segurança, estabelecendo limites éticos para a tecnologia.",
+"Sua decisão mostrou que a tecnologia pode ser uma ferramenta poderosa para o bem, desde que usada com responsabilidade.",
                 ],
                 proxima: 5,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Rejeitar a tecnologia, priorizando a privacidade e a liberdade individual acima de tudo.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Você defendeu a privacidade como um direito fundamental, buscando outras soluções para o problema.",
+"Sua postura garantiu que a liberdade dos cidadãos não fosse comprometida por avanços tecnológicos.",
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Utilizar informações próprias traz um toque pessoal ao nosso trabalho. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        enunciado: "Com os avanços, a educação precisa se adaptar. Qual a melhor forma de preparar a próxima geração?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Desenvolver plataformas de ensino online com IA para personalizar o aprendizado para cada aluno.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Você democratizou o conhecimento, permitindo que a educação de qualidade chegasse a todos, em qualquer lugar.",
+"Sua iniciativa de educação inovadora formou uma geração de pensadores críticos e adaptáveis.",
                 ],
                 proxima: 5,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Focar no ensino presencial, valorizando o contato humano e o trabalho em equipe, com menos tecnologia em sala de aula.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                   "Você garantiu que o lado humano da educação, como a colaboração e a empatia, fosse priorizado.",
+"Sua defesa da interação pessoal resultou em uma geração mais consciente e conectada com a comunidade.",
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Novas tecnologias trazem novos desafios, por isso após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "No futuro, você reflete sobre suas escolhas. O que você acredita que foi a maior conquista para a sociedade?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "A tecnologia que tornou a humanidade mais eficiente e poderosa.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                   "Sua jornada ajudou a criar um futuro onde a humanidade alcançou seu máximo potencial através da tecnologia.",
+"A tecnologia se tornou a espinha dorsal de um mundo próspero e inovador, um verdadeiro triunfo da engenharia.",
                 ],
                 proxima: 7,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "A conscientização que uniu a humanidade para proteger o planeta.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                   "Sua jornada ajudou a inspirar uma geração a colocar o planeta em primeiro lugar, garantindo sua sobrevivência a longo prazo.",
+"A cooperação global e a consciência ambiental se tornaram o maior legado, mostrando que juntos somos mais fortes.",
                 ],
                 proxima: 7,
             },
         ]
     },
-    {
-        enunciado: "É muito importante refletir sobre os trabalhadores do futuro. Por isso a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
-        alternativas: [
-            {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
-                ],
-                proxima: 7,
-            },
-            {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
-                ],
-                proxima: 7,
-            },
-        ]
-    },
-    {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
-        alternativas: [
-            {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: [
-                    "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes.",
-                    "Ainda acha que os meios de desenho tradicionais são mais eficazes para a criatividade, por isso vem estimulando pessoas em suas redes sociais a fazer pintura em aquarela."
-                ],
-            },
-            {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: [
-                    "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!",
-                    "Compartilhou artes em redes sociais como forma de ensinar como se comunicar através da arte.",
-                    "Percebeu que muitas pessoas têm dificuldade em expressar suas ideias desenhando e acha que a IA é capaz de empoderar essas pessoas a tirarem ideias do papel."
-                ],
-            },
-        ]
-    }
+    
+    
 ];
