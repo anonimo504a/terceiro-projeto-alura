@@ -5,7 +5,7 @@ export const perguntas = [
             {
                 texto: "Isso é assustador!",
                 afirmacao: [
-                    "No início, você ficou com medo do que essa 'democracia musical' pode significar para os artistas menos populares.",
+                    "No início, você ficou com medo do que isso pode significar para os artistas menos populares.",
                     "Achou assustador pensar que a música, uma forma de arte tão pessoal, pode ser decidida por votação."
                 ],
                 proxima: 1,
