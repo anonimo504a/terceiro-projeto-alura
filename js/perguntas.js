@@ -1,171 +1,171 @@
 export const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "Ouvindo rádio no caminho de casa, você escuta sobre um novo festival de música que vai permitir que o público escolha quais artistas vão tocar. Qual o seu primeiro pensamento?",
         alternativas: [
             {
                 texto: "Isso é assustador!",
                 afirmacao: [
-                    "No início ficou com medo do que essa tecnologia pode fazer.",
-                    "Achou assustador pensar na velocidade na qual a tecnologia está avançando."
+                    "No início, você ficou com medo do que essa 'democracia musical' pode significar para os artistas menos populares.",
+                    "Achou assustador pensar que a música, uma forma de arte tão pessoal, pode ser decidida por votação."
                 ],
                 proxima: 1,
             },
             {
                 texto: "Isso é maravilhoso!",
                 afirmacao: [
-                    "Quis saber como usar IA no seu dia a dia.",
-                    "Pensou que IA pode ajudar em tarefas da sua vida."
+                    "Quis saber como participar para que seus artistas favoritos pudessem ser escolhidos.",
+                    "Pensou que essa iniciativa pode ajudar a descobrir novos talentos e dar voz ao público."
                 ],
                 proxima: 2,
             },
         ]
     },
     {
-        enunciado: "Utilizar uma IA pode ser aterrorizante mesmo, e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "A ideia de ter o público no comando pode ser assustadora. Um professor de música decide fazer uma sequência de aulas sobre a importância do público e da crítica na música. Ao final, ele pede um trabalho sobre o papel do ouvinte na criação musical. Qual atitude você toma?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Utiliza as redes sociais para criar enquetes e pesquisar a opinião dos seus amigos sobre artistas e gêneros musicais para basear seu trabalho.",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis.",
-                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
-                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
+                    "Conseguiu utilizar a opinião do público como uma ferramenta para explorar novas ideias musicais.",
+                    "Percebeu que a opinião dos outros pode ajudar a encontrar padrões e inspirações de forma mais rápida e direcionada.",
+                    "Percebeu que a troca de ideias com outras pessoas pode ser um 'atalho' criativo, auxiliando no bloqueio criativo e acelerando o processo de composição."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Escreve o trabalho e compõe uma música com base em suas próprias inspirações e no seu gosto musical, fazendo uma reflexão pessoal sobre o tema.",
                 afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
-                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
-                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
+                    "Sentiu mais facilidade em utilizar seus próprios recursos e conhecimentos para criar sua música.",
+                    "Acreditou que o processo pessoal e autêntico de criação musical é mais significativo.",
+                    "Sentiu um pouco de medo de que a opinião dos outros 'roubasse' a essência de sua criação e, por isso, preferiu um caminho mais individual."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Um chat com IA pode ser uma boa alternativa para realizar tarefas do dia a dia e foi pensando nisso que uma professora de tecnologia da escola decidiu fazer uma sequência de aulas sobre esta tecnologia. No fim de uma aula ela pede que você escreva um trabalho sobre o uso de IA em sala de aula. Qual atitude você toma?",
+        enunciado: "O público no comando pode ser uma boa alternativa para liberar a criatividade. Um professor de música decide fazer uma sequência de aulas sobre a importância do público e da crítica na música. Ao final, ele pede um trabalho sobre o papel do ouvinte na criação musical. Qual atitude você toma?",
         alternativas: [
             {
-                texto: "Utiliza uma ferramenta de busca na internet que utiliza IA para que ela ajude a encontrar informações relevantes para o trabalho e explique numa linguagem que facilite o entendimento.",
+                texto: "Utiliza as redes sociais para criar enquetes e pesquisar a opinião dos seus amigos sobre artistas e gêneros musicais para basear seu trabalho.",
                 afirmacao: [
-                    "Conseguiu utilizar a IA para buscar informações úteis.",
-                    "Percebeu que a IA pode ajudar a encontrar informações úteis na internet de forma mais rápida e direcionada.",
-                    "Percebeu que a IA consegue explicar termos complicados de forma simplificada e isso ajudou muito suas pesquisas sobre assuntos complexos."
+                    "Conseguiu utilizar a opinião do público como uma ferramenta para explorar novas ideias musicais.",
+                    "Percebeu que a opinião dos outros pode ajudar a encontrar padrões e inspirações de forma mais rápida e direcionada.",
+                    "Percebeu que a troca de ideias com outras pessoas pode ser um 'atalho' criativo, auxiliando no bloqueio criativo e acelerando o processo de composição."
                 ],
                 proxima: 3,
             },
             {
-                texto: "Escreve o trabalho com base nas conversas que teve com colegas, algumas pesquisas na internet e conhecimentos próprios sobre o tema.",
+                texto: "Escreve o trabalho e compõe uma música com base em suas próprias inspirações e no seu gosto musical, fazendo uma reflexão pessoal sobre o tema.",
                 afirmacao: [
-                    "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho.",
-                    "Achou que era muito mais fácil procurar por respostas utilizando alguns meios mais tradicionais mesmo que levasse mais tempo.",
-                    "Sentiu um pouco de medo de quais dados pessoais seus a IA poderia utilizar e por isso prefere fazer suas coisas com pouca intromissão da tecnologia."
+                    "Sentiu mais facilidade em utilizar seus próprios recursos e conhecimentos para criar sua música.",
+                    "Acreditou que o processo pessoal e autêntico de criação musical é mais significativo.",
+                    "Sentiu um pouco de medo de que a opinião dos outros 'roubasse' a essência de sua criação e, por isso, preferiu um caminho mais individual."
                 ],
                 proxima: 4,
             },
         ]
     },
     {
-        enunciado: "Ferramentas de busca que utilizam IA podem facilitar muito nosso processo de busca por informações. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        enunciado: "Ter a opinião do público pode ser útil, mas também levanta questões importantes. Você é convidado a participar de um debate sobre a importância da opinião do público para o futuro da música. Qual posicionamento você toma?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Defende a ideia de que o público deve ter mais voz, pois isso democratiza a produção musical e ajuda a descobrir novos talentos.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Vem impulsionando a inovação na música, utilizando a opinião do público para explorar novos gêneros e sons.",
+                    "Participa ativamente do desenvolvimento de novos projetos que ajudam artistas a se conectarem mais com seus fãs."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Se preocupa com a autenticidade e o papel do artista, defendendo a importância de proteger a originalidade e a emoção na música, que não podem ser decididas por votação.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Sua preocupação com a arte motivou a criar um grupo de estudos para discutir o papel do artista na era da música 'democrática'.",
+                    "Criou uma campanha para valorizar artistas que seguem sua própria visão, independentemente das tendências do público."
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Utilizar informações próprias traz um toque pessoal ao nosso trabalho. Agora imagine que você precisa participar de um debate sobre o quanto a IA impacta no trabalho do futuro. Qual posicionamento tomar?",
+        enunciado: "A criação musical pessoal traz uma emoção única. Você é convidado a participar de um debate sobre a importância da opinião do público para o futuro da música. Qual posicionamento você toma?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Defende a ideia de que o público deve ter mais voz, pois isso democratiza a produção musical e ajuda a descobrir novos talentos.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Vem impulsionando a inovação na música, utilizando a opinião do público para explorar novos gêneros e sons.",
+                    "Participa ativamente do desenvolvimento de novos projetos que ajudam artistas a se conectarem mais com seus fãs."
                 ],
                 proxima: 5,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Se preocupa com a autenticidade e o papel do artista, defendendo a importância de proteger a originalidade e a emoção na música, que não podem ser decididas por votação.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Sua preocupação com a arte motivou a criar um grupo de estudos para discutir o papel do artista na era da música 'democrática'.",
+                    "Criou uma campanha para valorizar artistas que seguem sua própria visão, independentemente das tendências do público."
                 ],
                 proxima: 6,
             },
         ]
     },
     {
-        enunciado: "Novas tecnologias trazem novos desafios, por isso após a elaboração do trabalho escrito, a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "Novas ideias trazem novos desafios. Após a elaboração do trabalho, o professor realizou um debate para entender como foi o processo de criação. Nessa conversa, foi levantado um ponto muito importante: o impacto da voz do público no futuro da música. Nesse debate, como você se posiciona?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Defende a ideia de que o público pode ser um parceiro para os músicos, aprimorando suas habilidades e criatividade através do feedback e da participação.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Vem impulsionando a inovação na área da música e luta para abrir novos caminhos, como o de 'curador musical' que ajuda a conectar artistas com seus públicos.",
+                    "Participa ativamente do desenvolvimento de soluções criativas que melhoram a interação entre público e artista."
                 ],
                 proxima: 7,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Se preocupa com os artistas que podem perder sua identidade criativa e defende a importância de proteger o valor da criação humana, que não pode ser ditado por gostos passageiros.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Sua preocupação com os artistas o motivou a criar um grupo de estudos para discutir a importância da autonomia do criador na música.",
+                    "Criou grupos de discussão sobre a ética na música e busca ativamente valorizar a originalidade em detrimento da massificação."
                 ],
                 proxima: 7,
             },
         ]
     },
     {
-        enunciado: "É muito importante refletir sobre os trabalhadores do futuro. Por isso a professora realizou um debate entre a turma para entender como foi realizada a pesquisa e escrita. Nessa conversa também foi levantado um ponto muito importante: como a IA impacta o trabalho do futuro. Nesse debate, como você se posiciona?",
+        enunciado: "É muito importante refletir sobre o papel do artista no futuro. Por isso, o professor realizou um debate para entender como foi a criação. Nessa conversa, também foi levantado um ponto muito importante: o impacto da voz do público no futuro da música. Nesse debate, como você se posiciona?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
+                texto: "Defende a ideia de que o público pode ser um parceiro para os músicos, aprimorando suas habilidades e criatividade através do feedback e da participação.",
                 afirmacao: [
-                    "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA.",
-                    "Participa ativamente do desenvolvimento de soluções criativas e na melhoria de processos em IA."
+                    "Vem impulsionando a inovação na área da música e luta para abrir novos caminhos, como o de 'curador musical' que ajuda a conectar artistas com seus públicos.",
+                    "Participa ativamente do desenvolvimento de soluções criativas que melhoram a interação entre público e artista."
                 ],
                 proxima: 7,
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
+                texto: "Se preocupa com os artistas que podem perder sua identidade criativa e defende a importância de proteger o valor da criação humana, que não pode ser ditado por gostos passageiros.",
                 afirmacao: [
-                    "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética.",
-                    "Criou grupos de ética voltado para IA e busca ativamente reduzir as desigualdades geradas pela automação."
+                    "Sua preocupação com os artistas o motivou a criar um grupo de estudos para discutir a importância da autonomia do criador na música.",
+                    "Criou grupos de discussão sobre a ética na música e busca ativamente valorizar a originalidade em detrimento da massificação."
                 ],
                 proxima: 7,
             },
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "Ao final da discussão, você precisou criar uma música que representasse o que pensa sobre o papel do público na música. E agora?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
+                texto: "Criar uma música autoral, com base em suas próprias emoções e experiências, sem se preocupar com a opinião dos outros.",
                 afirmacao: [
-                    "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes.",
-                    "Ainda acha que os meios de desenho tradicionais são mais eficazes para a criatividade, por isso vem estimulando pessoas em suas redes sociais a fazer pintura em aquarela."
+                    "Notou que muitas pessoas ainda preferem a criação musical manual e decidiu compartilhar seus conhecimentos de composição e gravação com outros artistas.",
+                    "Ainda acha que o processo de criação tradicional é mais eficaz para expressar emoções e, por isso, vem estimulando as pessoas em suas redes sociais a aprenderem a tocar um instrumento."
                 ],
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
+                texto: "Criar uma música que combine elementos de diversos gêneros, inspirada em pesquisas sobre o que as pessoas mais gostam, e depois aprimorar a composição com seu toque pessoal.",
                 afirmacao: [
-                    "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!",
-                    "Compartilhou artes em redes sociais como forma de ensinar como se comunicar através da arte.",
-                    "Percebeu que muitas pessoas têm dificuldade em expressar suas ideias desenhando e acha que a IA é capaz de empoderar essas pessoas a tirarem ideias do papel."
+                    "Acelerou o processo de criação de canções utilizando a opinião do público como base e agora consegue ensinar pessoas com bloqueio criativo como se inspirar nas tendências!",
+                    "Compartilhou suas composições em redes sociais como forma de inspirar outras pessoas a utilizarem a opinião do público como ferramenta criativa.",
+                    "Percebeu que muitas pessoas têm dificuldade em compor e acha que a opinião do público é capaz de empoderar essas pessoas a tirarem suas ideias musicais da cabeça."
                 ],
             },
         ]
